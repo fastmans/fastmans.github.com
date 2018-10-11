@@ -1,0 +1,88 @@
+.maintitle{
+  font-size: 64px;
+  font-family: "Sofia",Helvetica, Arial, sans-serif;
+}
+
+h1{
+  margin: 0px;
+}
+
+h2{
+  text-align: center;
+  font-size: 48px;
+  margin: 0px;
+  border-bottom:2px solid red;
+}
+
+h3{
+  font-size: 32px;
+  margin: 0px;
+}
+
+h4{
+  font-size: 16px;
+  margin: 0px;
+  color: grey;
+}
+
+.blog{
+  font-family: "Quantico";
+}
+
+.date{
+  padding-left: 10px;
+  font-family: "Quantico";
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+}
+
+#container{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#bottombar{
+  text-align: right;
+}
+
+#bottomtext{
+  text-align: right;
+  padding-top: 20px;
+  font-size: 8px;
+}
+
+#sidebar_button{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button:hover{
+  background-color: black;
+}
+
+#sidebar_button:hover #sidebar_text{
+  color: white;
+}
+
+
+#sidebar_text{
+  color: black;
+}
