@@ -6,11 +6,19 @@
 
   <body>
 
-    <audio controls>
-      <source src="audip/jef.ogg" type="audio/ogg">
+    <audio id="audio" controls hidden>
       <source src="audio/jef.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
+
+    <script>
+    function myFunction() {
+      document.getElementById("audio").load();
+        document.getElementById("audio").play();
+    }
+    </script>
+
+    <button type="button" onclick="myFunction()">Play</button>
 
   </body>
 
