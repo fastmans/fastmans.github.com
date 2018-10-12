@@ -4,24 +4,24 @@
 }
 
 h1{
-  margin: 0;
+  margin: 0px;
 }
 
 h2{
   text-align: center;
   font-size: 48px;
-  margin: 0;
+  margin: 0px;
   border-bottom:2px solid red;
 }
 
 h3{
   font-size: 32px;
-  margin: 0;
+  margin: 0px;
 }
 
 h4{
   font-size: 16px;
-  margin: 0;
+  margin: 0px;
   color: grey;
 }
 
@@ -40,7 +40,7 @@ a{
 
 ul{
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
 }
 
 body{
@@ -62,7 +62,7 @@ body{
   font-size: 8px;
 }
 
-#sidebar_button_m{
+#sidebar_button{
   border-style: solid;
   border-color: black;
   padding: 5px;
@@ -74,106 +74,11 @@ body{
   margin-right: auto;
 }
 
-#sidebar_button_h{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_p{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_t{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_n{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_s{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_m:hover{
-  background-color: black;
-}
-#sidebar_button_p:hover{
-  background-color: black;
-}
-#sidebar_button_n:hover{
-  background-color: black;
-}
-#sidebar_button_h:hover{
-  background-color: black;
-}
-#sidebar_button_s:hover{
-  background-color: black;
-}
-#sidebar_button_t:hover{
+#sidebar_button:hover{
   background-color: black;
 }
 
-#sidebar_button_m:hover #sidebar_text_m{
-  color: white;
-}
-
-#sidebar_button_n:hover #sidebar_text_n{
-  color: white;
-}
-
-#sidebar_button_t:hover #sidebar_text_t{
-  color: white;
-}
-
-#sidebar_button_s:hover #sidebar_text_s{
-  color: white;
-}
-
-#sidebar_button_h:hover #sidebar_text_h{
-  color: white;
-}
-
-#sidebar_button_p:hover #sidebar_text_p{
+#sidebar_button:hover #sidebar_text{
   color: white;
 }
 
