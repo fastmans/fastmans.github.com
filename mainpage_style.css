@@ -4,24 +4,24 @@
 }
 
 h1{
-  margin: 0px;
+  margin: 0;
 }
 
 h2{
   text-align: center;
   font-size: 48px;
-  margin: 0px;
+  margin: 0;
   border-bottom:2px solid red;
 }
 
 h3{
   font-size: 32px;
-  margin: 0px;
+  margin: 0;
 }
 
 h4{
   font-size: 16px;
-  margin: 0px;
+  margin: 0;
   color: grey;
 }
 
@@ -40,7 +40,7 @@ a{
 
 ul{
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
 }
 
 body{
