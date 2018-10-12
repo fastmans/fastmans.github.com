@@ -62,7 +62,7 @@ body{
   font-size: 8px;
 }
 
-div.sidebar_button{
+#sidebar_button{
   border-style: solid;
   border-color: black;
   padding: 5px;
