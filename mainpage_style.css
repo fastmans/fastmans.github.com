@@ -62,7 +62,7 @@ body{
   font-size: 8px;
 }
 
-.sidebar_button{
+div.sidebar_button{
   border-style: solid;
   border-color: black;
   padding: 5px;
@@ -74,15 +74,15 @@ body{
   margin-right: auto;
 }
 
-.sidebar_button:hover{
+div.sidebar_button:hover{
   background-color: black;
 }
 
-.sidebar_button:hover .sidebar_text{
+div.sidebar_button:hover div.sidebar_text{
   color: white;
 }
 
 
-.sidebar_text{
+div.sidebar_text{
   color: black;
 }
