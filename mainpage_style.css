@@ -62,7 +62,7 @@ body{
   font-size: 8px;
 }
 
-#sidebar_button_m #sidebar_button_p #sidebar_button_t #sidebar_button_h #sidebar_button_n #sidebar_button_s{
+#sidebar_button_m{
   border-style: solid;
   border-color: black;
   padding: 5px;
@@ -74,7 +74,82 @@ body{
   margin-right: auto;
 }
 
-#sidebar_button_m:hover #sidebar_button_p:hover #sidebar_button_t:hover #sidebar_button_h:hover #sidebar_button_n:hover #sidebar_button_s:hover{
+#sidebar_button_h{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button_p{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button_t{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button_n{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button_s{
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  font-size: 32px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sidebar_button_m:hover{
+  background-color: black;
+}
+#sidebar_button_p:hover{
+  background-color: black;
+}
+#sidebar_button_n:hover{
+  background-color: black;
+}
+#sidebar_button_h:hover{
+  background-color: black;
+}
+#sidebar_button_s:hover{
+  background-color: black;
+}
+#sidebar_button_t:hover{
   background-color: black;
 }
 
