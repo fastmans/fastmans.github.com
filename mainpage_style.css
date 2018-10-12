@@ -86,28 +86,3 @@ body{
 #sidebar_text{
   color: black;
 }
-
-#sidebar_button_m{
-  border-style: solid;
-  border-color: black;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-  font-size: 32px;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#sidebar_button_m:hover{
-  background-color: black;
-}
-
-#sidebar_button_m:hover #sidebar_text_m{
-  color: white;
-}
-
-
-#sidebar_text_m{
-  color: black;
-}
