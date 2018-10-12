@@ -74,15 +74,15 @@ div.sidebar_button{
   margin-right: auto;
 }
 
-div.sidebar_button:hover{
+#sidebar_button:hover{
   background-color: black;
 }
 
-div.sidebar_button:hover div.sidebar_text{
+#sidebar_button:hover #sidebar_text{
   color: white;
 }
 
 
-div.sidebar_text{
+#sidebar_text{
   color: black;
 }
