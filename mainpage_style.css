@@ -11,12 +11,13 @@ h2{
   text-align: center;
   font-size: 48px;
   margin: 0;
-  border-bottom:2px solid red;
 }
 
 h3{
+  border-top:2px solid red;
+  padding: 16px 0 0 0;
   font-size: 32px;
-  margin: 0;
+  margin: 16px 0 0 0;
 }
 
 h4{
@@ -38,13 +39,17 @@ a{
   text-decoration: none;
 }
 
+.normal_a{
+  color: #900;
+}
+
 ul{
   list-style-type: none;
   padding: 0;
 }
 
 body{
-  background-image: url("bg.jpg");
+  background-image: url("img/bg.jpg");
   background-size: cover;
 }
 
@@ -63,10 +68,20 @@ body{
   font-size: 8px;
 }
 
-#sidebar_button{
+#sidebar_button_m:hover #sidebar_text_m{
+  color: white;
+}
+
+
+#sidebar_text_m{
+  color: black;
+}
+
+#sidebar_button, #sidebar_button_m, #sidebar_button_n, #sidebar_button_t, #sidebar_button_p, #sidebar_button_s, #sidebar_button_h{
   border-style: solid;
   border-color: black;
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: 5px;
   text-align: center;
   font-size: 32px;
@@ -75,15 +90,15 @@ body{
   margin-right: auto;
 }
 
-#sidebar_button:hover{
+#sidebar_button:hover, #sidebar_button_m:hover, #sidebar_button_n:hover, #sidebar_button_t:hover, #sidebar_button_p:hover, #sidebar_button_s:hover, #sidebar_button_h:hover{
   background-color: black;
 }
 
-#sidebar_button:hover #sidebar_text{
+#sidebar_button:hover #sidebar_text, #sidebar_button_m:hover #sidebar_text_m, #sidebar_button_n:hover #sidebar_text_n, #sidebar_button_t:hover #sidebar_text_t,#sidebar_button_p:hover #sidebar_text_p, #sidebar_button_s:hover #sidebar_text_s, #sidebar_button_h:hover #sidebar_text_h{
   color: white;
 }
 
 
-#sidebar_text{
+#sidebar_text, #sidebar_text_m, #sidebar_text_n, #sidebar_text_t, #sidebar_text_p, #sidebar_text_s, #sidebar_text_h{
   color: black;
 }
