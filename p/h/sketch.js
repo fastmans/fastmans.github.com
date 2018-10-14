@@ -4,7 +4,7 @@ var sound = new Howl({
 
 function setup() {
   var button = createButton('Play');
-  button.mousePressed(myFunction());
+  button.mousePressed(console.log("played"));
 }
 
 function draw() {
