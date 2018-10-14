@@ -77,7 +77,7 @@ body{
   color: black;
 }
 
-#sidebar_button, #sidebar_button_m, #sidebar_button_n, #sidebar_button_t, #sidebar_button_p, #sidebar_button_s, #sidebar_button_h{
+#sidebar_button, #sidebar_button_m, #sidebar_button_n, #sidebar_button_t, #sidebar_button_p, #sidebar_button_s, #sidebar_button_h, #sidebar_button_hardver{
   border-style: solid;
   border-color: black;
   padding-top: 5px;
@@ -90,15 +90,15 @@ body{
   margin-right: auto;
 }
 
-#sidebar_button:hover, #sidebar_button_m:hover, #sidebar_button_n:hover, #sidebar_button_t:hover, #sidebar_button_p:hover, #sidebar_button_s:hover, #sidebar_button_h:hover{
+#sidebar_button:hover, #sidebar_button_m:hover, #sidebar_button_n:hover, #sidebar_button_t:hover, #sidebar_button_p:hover, #sidebar_button_s:hover, #sidebar_button_h:hover, #sidebar_button_hardver:hover{
   background-color: black;
 }
 
-#sidebar_button:hover #sidebar_text, #sidebar_button_m:hover #sidebar_text_m, #sidebar_button_n:hover #sidebar_text_n, #sidebar_button_t:hover #sidebar_text_t,#sidebar_button_p:hover #sidebar_text_p, #sidebar_button_s:hover #sidebar_text_s, #sidebar_button_h:hover #sidebar_text_h{
+#sidebar_button:hover #sidebar_text, #sidebar_button_m:hover #sidebar_text_m, #sidebar_button_n:hover #sidebar_text_n, #sidebar_button_t:hover #sidebar_text_t,#sidebar_button_p:hover #sidebar_text_p, #sidebar_button_s:hover #sidebar_text_s, #sidebar_button_h:hover #sidebar_text_h, #sidebar_button_hardver:hover #sidebar_text_hardver{
   color: white;
 }
 
 
-#sidebar_text, #sidebar_text_m, #sidebar_text_n, #sidebar_text_t, #sidebar_text_p, #sidebar_text_s, #sidebar_text_h{
+#sidebar_text, #sidebar_text_m, #sidebar_text_n, #sidebar_text_t, #sidebar_text_p, #sidebar_text_s, #sidebar_text_h, #sidebar_text_hardver{
   color: black;
 }
