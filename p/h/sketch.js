@@ -1,6 +1,10 @@
 let mySound;
-function setup() {
+
+function preload(){
   mySound = loadSound('jef.mp3');
+}
+
+function setup() {
   createCanvas(800,600);
 
   var button = createButton('Play');
