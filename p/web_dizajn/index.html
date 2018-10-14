@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Web Dizajn</title>
+
+    <meta charset="utf-8"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet'>
+
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="mainpage_style.css">
+    <script src="script.js"></script>
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="title">
+        <h1 class="maintitle">Web Dizajn</h1>
+      </div>
+      <div id="body">
+
+          <h2 class="blog">Pitanja i odgovori</h2>
+
+
+          <h3 class="blog" onclick="hideQuestion1()">1.Šta je internet?</h3>
+          <div id="hiddenQuestion1" style="display: none">
+          <h4 class="blog">Internet je svetski sistem umreženih racunarski mreža.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion2()">2.Kad i kako je nastao internet?</h3>
+          <div id="hiddenQuestion2" style="display: none">
+          <h4 class="blog">Nastao je 1969,stvaranjem mreže racunara pod kontrolom USA.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion3()">3.Šta je veb?</h3>
+          <div id="hiddenQuestion3" style="display: none">
+          <h4 class="blog">Samo jedna od sredstava za razmenu informacija preko interneta.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion4()">4.Kako je nastao veb?</h3>
+          <div id="hiddenQuestion4" style="display: none">
+          <h4 class="blog">Tim Berners-Li je osmislio sistem upravljanja informacijama sa konceptom hiperteksta.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion5()">5.Šta je veb sajt?</h3>
+          <div id="hiddenQuestion5" style="display: none">
+          <h4 class="blog">Skup veb stranica koje mogu da sadrže razne multimedijalne sadržaje.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion6()">6.Kako se pristupa veb stranicama?</h3>
+          <div id="hiddenQuestion6" style="display: none">
+          <h4 class="blog">Veb stranama se pristupa preko internet browser-a pomocu URL-a.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion7()">7.Šta je HTML?</h3>
+          <div id="hiddenQuestion7" style="display: none">
+          <h4 class="blog">Jezik za pravljenje stranica pomocu tagova.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion8()">8.Šta su internet servisi?</h3>
+          <div id="hiddenQuestion8" style="display: none">
+          <h4 class="blog"> Predstavljaju razlicite vrste usluga interneta.Primeri:</h4>
+          <ol>
+            <li>WWW - prikaz HTML stranica</li>
+            <li>E-mail - slanje i primanje e-pošte</li>
+            <li>FTP - prenos datoteka sa servera na server</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion9()">9.Objasni klijent servera.Najznacajniji klijent-serveri?</h3>
+          <div id="hiddenQuestion9" style="display: none">
+          <h4 class="blog">Klijent traži usluge,server obezbedjuje resurse i usluge.www i e-mail</h4>
+          </div>
+
+
+          <h3 class="blog" onclick="hideQuestion10()">10.Objasni P2P.</h3>
+          <div id="hiddenQuestion10" style="display: none">
+          <h4 class="blog">Više kompjutera povezani preko interneta.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion11()">11.Navedi korake kreiranja staticke veb stranice.</h3>
+          <div id="hiddenQuestion11" style="display: none">
+          <h4 class="blog"></h4>
+          <ol>
+            <li>Kreiranje strane,hostovanje</li>
+            <li>Zahtevanje strane</li>
+            <li>Server nalazi stranu</li>
+            <li>Server vraca  stranu</li>
+            <li>Prikazivanje strane</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion12()">12.Navedi korake kreiranja dinamicke veb stranice.</h3>
+          <div id="hiddenQuestion12" style="display: none">
+          <h4 class="blog">U kucistu se nalazi:</h4>
+          <ol>
+            <li>Kreiranje strane,hostovanje</li>
+            <li>Zahtevanje strane</li>
+            <li>Server nalazi stranu</li>
+            <li>Server izvršava kod</li>
+            <li>Server vraca stranu</li>
+            <li>Prikazivanje strane</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion13()">13.Cemu služi DNS?</h3>
+          <div id="hiddenQuestion13" style="display: none">
+          <h4 class="blog">Sistem koji pretvara imena racunara u IP-adrese.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion14()">14.Objasni domene u mat.bg.ac.rs</h3>
+          <div id="hiddenQuestion14" style="display: none">
+          <ol>
+            <li>mat - ???</li>
+            <li>bg - Bugarska</li>
+            <li>ac - Ostrvo u Velikoj Britaniji</li>
+            <li>rs - Srbija</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion15()">15.Šta je URL?</h3>
+          <div id="hiddenQuestion15" style="display: none">
+          <h4 class="blog">Jedinstvena adresa na internetu.</h4>
+          <ol>
+            <li>http:// - protokol</li>
+            <li>www.mojdizajn.com - sajt</li>
+            <li>/2008/primeri/prvi.html - putanja</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion16()">16.Šta radi server kada dobije zahtev za ime direktorijuma</h3>
+          <div id="hiddenQuestion16" style="display: none">
+          <h4 class="blog">Prikaže default.html</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion17()">17.Šta je registracija domena.Navesti nacionalne domene</h3>
+          <div id="hiddenQuestion17" style="display: none">
+          <h4 class="blog">Dobijanje veb adrese bez prostora za postavljanje sajta.</h4>
+          <ol>
+            <li>rs</li>
+            <li>ac</li>
+            <li>bg</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion18()">18.Šta su registri domena i ko ih ovlašcuje?</h3>
+          <div id="hiddenQuestion18" style="display: none">
+          <h4 class="blog">To su kompanije koje se brinu o registraciji domena.Njih ovlašcuje ICANN– Internet.</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion19()">19.Šta je RNIDS?</h3>
+          <div id="hiddenQuestion19" style="display: none">
+          <h4 class="blog">(Registar nacionalnog internet domena Srbije).</h4>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion20()">20.Navedi sve potrebne korake za registraciju domena.</h3>
+          <div id="hiddenQuestion20" style="display: none">
+          <ol>
+            <li>Osmisliti dobar i dozvoljen naziv domena</li>
+            <li>Proveriti da li je željan naziv domena slobodan</li>
+            <li>Izabrati pravi domenski prostor</li>
+            <li>Registracija domena preko nekog ovlašcenog registara</li>
+          </ol>
+          </div>
+
+          <h3 class="blog" onclick="hideQuestion21()">21.Šta je veb hosting?</h3>
+          <div id="hiddenQuestion21" style="display: none">
+          <h4 class="blog">Smeštanje stranice na veb server.</h4>
+          </div>
+      </div>
+
+    </div>
+  </body>
+
+</html>
