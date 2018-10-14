@@ -11,6 +11,6 @@ function draw() {
   background(0,0,155);
 }
 
-function myFunction() {
-  sound.play();
-}
+// function myFunction() {
+//   sound.play();
+// }
