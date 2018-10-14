@@ -3,8 +3,6 @@ var sound = new Howl({
 });
 
 function setup() {
-  createCanvas(800,600);
-  
   var button = createButton('Play');
   button.mousePressed(myFunction());
 }
