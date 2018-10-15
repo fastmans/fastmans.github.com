@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Quantico";
+  src: url("fonts/Quantico.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia";
+  src: url("fonts/Sofia.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .maintitle{
   font-size: 64px;
   font-family: "Sofia",Helvetica, Arial, sans-serif;
@@ -35,6 +49,11 @@ li{
 
 .blog{
   font-family: "Quantico";
+}
+
+.indent{
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .date{
