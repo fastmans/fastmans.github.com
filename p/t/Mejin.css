@@ -1,0 +1,28 @@
+.blackbox{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-bottom: 32px;
+}
+body{
+  background-image: url("Serb1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 5px;
+  font-family: "Comic Sans",cursive;
+  margin-top: 50px;
+  font-size: 60px;
+  border-bottom: 4px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+p{
+  font-family: "Comic Sans",cursive;
+  padding-left: 20px;
+  font-size: 30px;
+}
